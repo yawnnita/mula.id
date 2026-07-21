@@ -7,7 +7,7 @@ import { services } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Layanan",
   description:
-    "Pilih paket pembuatan website yang sesuai kebutuhan Anda: Pakai Template (Rp 100rb-600rb), Semi Custom (Rp 1.5jt-3.5jt), atau Full System Custom (Rp 7.5jt+).",
+    "Pilih paket pembuatan website yang sesuai kebutuhan Anda: Pakai Template (mulai Rp 800rb), Semi Custom (mulai Rp 1.5jt), atau Full System Custom (Rp 7.5jt+).",
   keywords: [
     "jasa pembuatan website",
     "paket website murah",
@@ -68,7 +68,7 @@ export default function ServicesPage() {
               },
               {
                 q: "Bisa revisi berapa kali?",
-                a: "Template: 2x revisi. Semi custom: 5x revisi. Full custom: unlimited revisi.",
+                a: "Template: 1x revisi. Semi custom: 3x revisi. Full custom: unlimited revisi.",
               },
               {
                 q: "Bagaimana cara pembayarannya?",

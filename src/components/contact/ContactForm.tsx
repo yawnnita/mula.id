@@ -153,8 +153,8 @@ export default function ContactForm() {
                   className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-teal focus:ring-2 focus:ring-teal/20 outline-none transition-all bg-gray-50 focus:bg-white"
                 >
                   <option value="">Pilih paket</option>
-                  <option value="template">Pakai Template (Rp 100rb - 600rb)</option>
-                  <option value="semi-custom">Semi Custom (Rp 1.5jt - 3.5jt)</option>
+                  <option value="template">Pakai Template (mulai Rp 800rb)</option>
+                  <option value="semi-custom">Semi Custom (mulai Rp 1.5jt)</option>
                   <option value="full-custom">Full System Custom (Rp 7.5jt+)</option>
                 </select>
               </div>
