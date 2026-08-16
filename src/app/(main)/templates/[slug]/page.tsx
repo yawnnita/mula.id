@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { ArrowLeft } from "lucide-react";
-import { templates } from "@/lib/data";
+import { templates } from "@/app/(main)/templates/data";
 
 // Company Profile
 import StarterBusinessLanding from "@/components/templates/landing/StarterBusinessLanding";

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import TemplateGrid from "@/components/templates/TemplateGrid";
 import CTASection from "@/components/home/CTA";
-import { templates } from "@/lib/data";
+import { templates } from "./data";
 
 export const metadata: Metadata = {
   title: "Template Gallery",

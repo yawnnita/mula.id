@@ -10,7 +10,7 @@ import {
   Zap,
 } from "lucide-react";
 import SectionHeader from "@/components/ui/SectionHeader";
-import { whyUsFeatures } from "@/lib/data";
+import { whyUsFeatures } from "@/app/(main)/home/data";
 import { staggerContainer, staggerChild } from "@/lib/animations";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {

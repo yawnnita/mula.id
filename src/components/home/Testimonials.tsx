@@ -4,7 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Star, ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import SectionHeader from "@/components/ui/SectionHeader";
-import { testimonials } from "@/lib/data";
+import { testimonials } from "@/app/(main)/home/data";
 import { fadeIn } from "@/lib/animations";
 
 /**

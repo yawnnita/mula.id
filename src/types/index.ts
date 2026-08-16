@@ -1,46 +1,15 @@
-/** Service item type */
-export interface Service {
-  id: string;
-  title: string;
-  slug: string;
-  description: string;
-  features: string[];
-  price: string;
-  icon: string;
-  image?: string;
-  popular?: boolean;
-}
+export type { Stat, WhyUsFeature, Testimonial, TechStack } from "@/app/(main)/home/types";
+export type { Service } from "@/app/(main)/services/types";
+export type { Template } from "@/app/(main)/templates/types";
 
-/** Template/Portfolio item type */
-export interface Template {
-  id: string;
-  title: string;
-  slug: string;
-  category: string;
-  description: string;
-  image: string;
-  demoUrl?: string;
-  features: string[];
-  price: string;
-  popular?: boolean;
-}
+import type { Service } from "@/app/(main)/services/types";
+import type { Template } from "@/app/(main)/templates/types";
 
-/** Testimonial type */
-export interface Testimonial {
-  id: string;
-  name: string;
-  role: string;
-  company: string;
-  avatar: string;
-  content: string;
-  rating: number;
-}
-
-/** Tech stack item type */
-export interface TechStack {
-  id: string;
-  name: string;
-  logo: string;
+/** Navigation link type */
+export interface NavLink {
+  label: string;
+  href: string;
+  children?: NavLink[];
 }
 
 /** Contact form data type */
@@ -50,13 +19,6 @@ export interface ContactFormData {
   phone: string;
   service: string;
   message: string;
-}
-
-/** Navigation link type */
-export interface NavLink {
-  label: string;
-  href: string;
-  children?: NavLink[];
 }
 
 /** CMS Service type (with admin fields) */
@@ -71,18 +33,4 @@ export interface CMSTemplate extends Template {
   createdAt: string;
   updatedAt: string;
   published: boolean;
-}
-
-/** Stats counter type */
-export interface Stat {
-  label: string;
-  value: string;
-  suffix?: string;
-}
-
-/** Why Us feature type */
-export interface WhyUsFeature {
-  title: string;
-  description: string;
-  icon: string;
 }

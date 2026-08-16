@@ -5,7 +5,8 @@ import { ArrowRight, Play } from "lucide-react";
 import Link from "next/link";
 import Button from "@/components/ui/Button";
 import { fadeInUp, fadeInLeft, fadeInRight } from "@/lib/animations";
-import { siteStats, whatsappUrl } from "@/lib/data";
+import { siteStats } from "@/app/(main)/home/data";
+import { whatsappUrl } from "@/lib/data";
 
 /**
  * Hero section with animated headline, CTA buttons, stats counter, and gradient background.
@@ -43,7 +44,7 @@ export default function Hero() {
 
             <p className="mt-6 text-lg md:text-xl text-gray-500 max-w-lg leading-relaxed">
               Kami bantu wujudkan website profesional untuk bisnis Anda.
-              Murah, cepat, dan berkualitas. Mulai dari Rp 100.000.
+              Murah, cepat, dan berkualitas. Mulai dari Rp 1,000,000
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4">

@@ -3,10 +3,10 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import SectionHeader from "@/components/ui/SectionHeader";
-import { techStack } from "@/lib/data";
+import { techStack } from "@/app/(main)/home/data";
 import { staggerContainer, staggerChild } from "@/lib/animations";
 
-export default function Clients() {
+export default function Tech() {
   const duplicated = [...techStack, ...techStack];
 
   return (

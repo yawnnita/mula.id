@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ServiceCard from "@/components/services/ServiceCard";
 import SectionHeader from "@/components/ui/SectionHeader";
 import CTASection from "@/components/home/CTA";
-import { services } from "@/lib/data";
+import { services } from "./data";
 
 export const metadata: Metadata = {
   title: "Layanan",

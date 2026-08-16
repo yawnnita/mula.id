@@ -3,7 +3,7 @@ import ServicesOverview from "@/components/home/ServicesOverview";
 import Process from "@/components/home/Process";
 import WhyUs from "@/components/home/WhyUs";
 import Testimonials from "@/components/home/Testimonials";
-import Clients from "@/components/home/Clients";
+import Tech from "@/components/home/Tech";
 import CTASection from "@/components/home/CTA";
 
 /**
@@ -20,7 +20,7 @@ export default function HomePage() {
       <Process />
       <WhyUs />
       <Testimonials />
-      <Clients />
+      <Tech />
       <CTASection />
     </>
   );

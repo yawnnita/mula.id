@@ -60,7 +60,7 @@ export default function ServiceCard({ service, index }: ServiceCardProps) {
             <div className="text-2xl font-bold text-teal">{service.price}</div>
           </div>
           <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-            <span className="inline-flex items-center gap-2 bg-teal text-white px-5 py-2.5 rounded-lg text-sm font-medium hover:bg-teal-dark transition-colors cursor-pointer">
+            <span className="inline-flex items-center gap-3 bg-teal text-white px-2 py-2.5 rounded-lg text-sm font-medium hover:bg-teal-dark transition-colors cursor-pointer">
               Pesan Sekarang
               <ArrowRight className="h-4 w-4" />
             </span>

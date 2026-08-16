@@ -12,7 +12,8 @@ import Card from "@/components/ui/Card";
 import Badge from "@/components/ui/Badge";
 import SectionHeader from "@/components/ui/SectionHeader";
 import Button from "@/components/ui/Button";
-import { services, whatsappUrl } from "@/lib/data";
+import { services } from "@/app/(main)/services/data";
+import { whatsappUrl } from "@/lib/data";
 import { staggerContainer, staggerChild } from "@/lib/animations";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {

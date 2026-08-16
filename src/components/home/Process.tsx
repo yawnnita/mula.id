@@ -46,7 +46,7 @@ export default function Process() {
     <section className="py-20 md:py-28 bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeader
-          title="How It Works"
+          title="Proses pembuatan website"
           subtitle="Our streamlined process ensures your project is delivered on time and exceeds expectations."
         />
 
